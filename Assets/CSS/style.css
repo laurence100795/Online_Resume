@@ -23,6 +23,10 @@
     margin-bottom: 40px;
 }
 
+.bg-color-contact {
+    background: #fff;
+}
+
 /*--------------------------------------------Colours*/
 
 Header {
@@ -318,7 +322,7 @@ footer {
     font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
@@ -327,7 +331,7 @@ footer {
     height: 12px;
     display: block;
     top: 2.4em;
-    position:absolute;
+    position: absolute;
     left: -6px;
     border-radius: 12px;
     content: '';
@@ -336,4 +340,37 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*--------------------------------------------Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/*--------------------------------------------Media Query*/
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height:240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
